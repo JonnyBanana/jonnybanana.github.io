@@ -1,0 +1,49 @@
+body,html{height:100%;width:100%;overflow-x:hidden;}
+body{font: normal 14px/19px Arial,sans-serif;letter-spacing:1px;margin:0;
+background-image: url(https://www.wallpaperflare.com/static/749/799/638/statue-the-all-seeing-eye-pyramid-red-wallpaper-preview.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ body {
+ background-image: url(https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2018/3-spaceweather.jpg); 
+ background-repeat: no-repeat;
+ background-size: cover;}
+ }}
+.clearfix{display:inline-block}
+.clearfix::after{content:"";visibility:hidden;display:inline-block;font-size:0;clear:both;height:0}
+.tekst{color:#363635;font-family:Arial,sans-serif;text-transform:uppercase;font-size:14px;line-height:28px;font-weight:bold;display:block;letter-spacing:2px;max-width:100%;text-align:center;position:absolute;bottom:20px;left:30px;z-index:99}
+a{color:#F37043;text-decoration:none;cursor:pointer}
+a:hover{text-decoration:underline}
+.outer{display:table;margin:0 auto;height:100%}
+.middle{display:table-cell;vertical-align:middle}
+.main{position:relative;height:190px;margin:18px}
+@media (max-width:550px){.main{-webkit-transform:scale(0.75);transform:scale(0.75)}}
+@media (max-width:440px){.main{-webkit-transform:scale(0.5);transform:scale(0.5)}}
+.buddha{position:relative;width:128px;height:190px;-webkit-animation:animUpDown 3s ease-in-out infinite;animation:animUpDown 3s ease-in-out infinite}
+.buddha .legs{position:absolute;bottom:0;left:0;width:128px;height:50px;border-radius:50px;background:#F37043}
+.buddha .tail{position:absolute;bottom:10px;left:15px;width:98px;height:82px;border-radius:38px;background:#F37043}
+.buddha .head{position:absolute;top:0px;left:2px;width:124px;height:124px;border-radius:124px;background:#F2BC9B}
+.buddha .ears{position:absolute;bottom:28px;width:28px;height:28px;border-radius:28px;background:#F2BC9B}
+.buddha .ears.left{left:-10px}
+.buddha .ears.right{right:-10px}
+.buddha .hand{position:absolute;bottom:25px;left:50%;width:34px;height:34px;border-radius:34px;background:#F2BC9B;-webkit-transform:translateX(-50%);transform:translateX(-50%)}
+.buddha .mouth{}
+.buddha .circle{position:absolute;top:35px;left:50%;width:40px;height:40px;border-radius:20px;background:white;-webkit-transform:translateX(-50%);transform:translateX(-50%)}
+
+.circle2{position:absolute;top:15px;left:50%;width:10px;height:10px;border-radius:20px;background:black;-webkit-transform:translateX(-50%);transform:translateX(-50%)}
+.buddha .eye{}
+.buddha .eye.left{}
+.buddha .eye.right{}
+.shadow{position:absolute;bottom:-40px;display:block;width:128px;height:50px;background:rgba(0,0,0,0.2);border-radius:50%;-webkit-animation:animShadow 3s ease-in-out infinite;animation:animShadow 3s ease-in-out infinite}
+@-webkit-keyframes animShadow{0%,100%{-webkit-transform:scale(1) rotateX(100deg);transform:scale(1) rotateX(100deg)}50%{-webkit-transform:scale(0.7) rotateX(100deg);transform:scale(0.7) rotateX(100deg)}}
+@keyframes animShadow{0%,100%{-webkit-transform:scale(1) rotateX(100deg);transform:scale(1) rotateX(100deg)}50%{-webkit-transform:scale(0.7) rotateX(100deg);transform:scale(0.7) rotateX(100deg)}}
+@-webkit-keyframes animUpDown{0%,100%{-webkit-transform:translateY(0);transform:translateY(0)}50%{-webkit-transform:translateY(-25px);transform:translateY(-25px)}}
+@keyframes animUpDown{0%,100%{-webkit-transform:translateY(0);transform:translateY(0)}50%{-webkit-transform:translateY(-25px);transform:translateY(-25px)}}
+.main:hover .buddha .head{-webkit-animation:animTopBottom 0.25s infinite;animation:animTopBottom 0.25s infinite}
+@-webkit-keyframes animTopBottom{0%,100%{-webkit-transform:translateY(0);transform:translateY(0)}50%{-webkit-transform:translateY(-5px);transform:translateY(-5px)}}
+@keyframes animTopBottom{0%,100%{-webkit-transform:translateY(0);transform:translateY(0)}50%{-webkit-transform:translateY(-5px);transform:translateY(-5px)}}
+
+
+
+

@@ -2255,3 +2255,30 @@ height:600px;
         animation: octocat-wave 560ms ease-in-out;
     }
 }
+
+/*my brain */
+
+#boat-small {
+    transform: translateX(-50vw);
+}
+#boat-large {
+    transform: translateX(30vw);
+}
+
+#mountains {
+    opacity: 0.8;
+}
+#water {
+    opacity: 0.8;
+}
+
+
+#container {
+  margin: 0 auto;
+  overflow:hidden;
+  background: #004076;
+}
+
+
+
+
